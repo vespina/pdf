@@ -26,7 +26,7 @@ available, priorizing XPS mode.
 * GXPS.EXE (only if you plan to use XPS mode)
 
 
-##### USAGE
+#### USAGE
 ```
     * LOAD LIBRARY INTO MEMORY (PUT THIS IN YOUR MAIN PRG)
     DO pdf
@@ -42,7 +42,7 @@ available, priorizing XPS mode.
     pdf.create("target.pdf", "report.frx", "datafile","optional-report-form-clauses")
 ```
 
-##### OPTIONS
+#### OPTIONS
 |Option|Description|
 |------|-----------|
 pdf.cMode|"GS" for Ghostscript, "XPS" for XPS
