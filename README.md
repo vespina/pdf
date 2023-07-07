@@ -51,6 +51,7 @@ pdf.oGS.cGSFolder|Location of GSDLL32.DLL [^1]
 pdf.oXPS.cPrinter|XPS Printer name (default is "Microsoft XPS Document Writer")
 pdf.oXPS.cGXPS|Location of GXPS.EXE (default is current folder) [^2]
 pdf.cReportMode|Report engine mode [^3]
+pdf.cOnwerPwd|Password to encrypt the PDF (optional)
 
 [^1]: This library has been tested using Ghostscript version 9.05.  Newer versions may not work.
 [^2]: GXPS.EXE is a command line utility that converts XPS files into PDF files.  File will be automatically generated the first time you call autoSetup method.
